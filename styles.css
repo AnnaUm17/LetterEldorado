@@ -253,6 +253,7 @@ body {
     margin: auto;
     border-radius: 0 0 8px 8px;
     background-color: #F3F3F3;
+    padding-bottom: 9px;
 }
 
 .persona-text {
@@ -319,6 +320,7 @@ body {
 }
 
 .auto-text__time {
+    display: inline;
     font: 700 11px/12px 'verdanabold', arial, helvetica, sans-serif;
     color: rgba(53, 53, 53, 0.54);
     letter-spacing: 0.9px;
@@ -341,6 +343,7 @@ body {
 
 .bonus {
     background-color: #c42d2c;
+    color: #fff;
 }
 
 .bonus-wrap {
@@ -348,37 +351,132 @@ body {
     justify-content: space-between;
     width: 90%;
     margin: auto;
+    margin-bottom: 18px;
 }
 
 .bonus__title {
+    font: 700 15px/38px 'verdanabold', arial, helvetica, sans-serif;
     text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: -7px;
 }
 
 .bonus__subtitle {
+    font: 400 15px/38px 'verdanaregular', arial, helvetica, sans-serif;
     text-align: center;
+    letter-spacing: 0.6px;
+    padding-bottom: 15px;
 }
 
-.conteiner-text {
+.container-text {
     display: flex;
     flex-direction: column;
     background-color: #A60229;
+    font: 400 13px/23px 'verdanaregular', arial, helvetica, sans-serif;
     color: #fff;
     text-align: center;
+    padding-top: 21px;
+    padding-bottom: 20px;
+}
+
+.container-text__first {
+    letter-spacing: 0.8px;
+}
+
+.container-text__second {
+    letter-spacing: 0.6px;
+}
+
+.container-text__second_link {
+    color: #fff;
 }
 
 .footer-up {
+    display: flex;
+    justify-content: start;
     background-color: #76BC34;
+    padding: 5px 0 3px 30px;
+}
+
+.footer-up__logo {
+    width: 162px;
+    height: 23px;
+    background: no-repeat url(img/logo2.svg);
+    margin-top: 18px;
+}
+
+.link {
+    display: flex;
+    justify-content: center;
+    padding-left: 9px;
+}
+
+.link__clock {
+    width: 77px;
+    height: 50px;
+    background: no-repeat left url(img/clock.svg), no-repeat right url(img/clock1.svg);
+    margin-right: 9px;
+}
+
+.link__price {
+    width: 77px;
+    height: 50px;
+    background: no-repeat left url(img/card.svg), no-repeat right url(img/card1.svg);
+    margin-right: 7px;
+}
+
+.link__place {
+    width: 77px;
+    height: 50px;
+    background: no-repeat left url(img/place.svg), no-repeat right url(img/place1.svg);
+    margin-right: 5px;
+}
+
+.link__bonus {
+    width: 100px;
+    height: 50px;
+    background: no-repeat left url(img/bonus.svg), no-repeat center right 9px url(img/bonus1.svg);
 }
 
 .footer-down {
     background-color: #393e42;
 }
 
+.footer-down-wrap {
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.contacts-call__text {
+    font: 700 11px/23px 'verdanabold', arial, helvetica, sans-serif;
+    letter-spacing: 0.9px;
+    margin-bottom: 10px;
+}
+
+.contacts-call__number {
+    font: 700 18px/23px 'verdanabold', arial, helvetica, sans-serif;
+}
+
 .contacts,
 .nets {
     color: #fff;
+    padding-top: 13px;
+}
+
+.contacts {
+    margin-right: 15vw;
+}
+
+.nets__title {
+    font: 700 11px/23px 'verdanabold', arial, helvetica, sans-serif;
+    letter-spacing: 0.8px;
 }
 
 .footer-text {
-    color: #8B8E90
+    font: 400 9px/14px 'verdanaregular', arial, helvetica, sans-serif;
+    color: #8B8E90;
+    padding: 16px 0 0 0;
 }
