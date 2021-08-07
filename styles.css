@@ -299,32 +299,44 @@ body {
 }
 
 .auto-text {
-    background: no-repeat url(img/delivery.svg);
+    background: no-repeat left top 22px url(img/delivery.svg);
+    width: 228px;
+    padding: 14px 0 0 51px;
 }
 
 .auto-text__title {
     font: 700 12px/25px 'verdanabold', arial, helvetica, sans-serif;
     color: #393D41;
+    letter-spacing: 1px;
+    margin-bottom: -8px;
 }
 
 .auto-text__adress {
     font: 400 12px/25px 'verdanaregular', arial, helvetica, sans-serif;
     color: #393D41;
+    letter-spacing: 0.5px;
+    margin-bottom: -2px;
 }
 
 .auto-text__time {
     font: 700 11px/12px 'verdanabold', arial, helvetica, sans-serif;
-    color: #353535;
+    color: rgba(53, 53, 53, 0.54);
+    letter-spacing: 0.9px;
 }
 
 .auto-text__time_data {
+    display: block;
     font: 400 11px/12px 'verdanaregular', arial, helvetica, sans-serif;
     color: rgba(53, 53, 53, 0.54);
+    letter-spacing: normal;
+    margin-bottom: -3px;
 }
 
 .auto-text__time_clock {
+    display: inline;
     font: 400 11px/12px 'verdanaregular', arial, helvetica, sans-serif;
     color: rgba(53, 53, 53, 0.54);
+    letter-spacing: 0.1px;
 }
 
 .bonus {
