@@ -9,6 +9,7 @@ body {
 .wrapper {
     background-color: #2F2F2F;
     padding-top: 132px;
+    padding-bottom: 33.5vh;
 }
 
 .wrapper-text {
@@ -47,7 +48,7 @@ body {
     width: 150px;
     height: 20px;
     background: no-repeat url(img/logo.svg);
-    margin-right: 54.7vw;
+    margin-right: 325px;
 }
 
 .lk {
@@ -92,7 +93,6 @@ body {
     font: 400 13px/16px 'verdanaregular', arial, helvetica, sans-serif;
     color: #fff;
     letter-spacing: 0.1vw;
-    padding-right: 15spx;
 }
 
 .banner-triangle {
@@ -158,21 +158,21 @@ body {
     width: 94px;
     height: 59px;
     background: no-repeat url(img/tv.jpg);
-    margin-right: 4vw;
+    margin-right: 24px;
 }
 
 .product-1__link {
     font: 400 12px/17px 'verdanaregular', arial, helvetica, sans-serif;
     color: #353535;
-    width: 30vw;
+    max-width: 180px;
     padding: 11px 0 0 0;
-    margin-right: 9.9vw;
+    margin-right: 59px;
 }
 
 .product-1__quantity {
     font: 400 12px/25px 'verdanaregular', arial, helvetica, sans-serif;
     padding: 15px 0 0 0;
-    margin-right: 8.9vw;
+    margin-right: 53px;
 }
 
 .product-1__price {
@@ -192,21 +192,21 @@ body {
     width: 99px;
     height: 59px;
     background: no-repeat url(img/vacuum.jpg);
-    margin-right: 4vw;
+    margin-right: 24px;
 }
 
 .product-2__link {
     font: 400 12px/17px 'verdanaregular', arial, helvetica, sans-serif;
     color: #353535;
-    width: 30vw;
+    max-width: 180px;
     padding: 9px 0 0 0;
-    margin-right: 9.9vw;
+    margin-right: 59px;
 }
 
 .product-2__quantity {
     font: 400 12px/25px 'verdanaregular', arial, helvetica, sans-serif;
     padding: 13px 0 0 0;
-    margin-right: 8.9vw;
+    margin-right: 53px;
 }
 
 .product-2__price {
@@ -216,7 +216,7 @@ body {
 
 .delivery {
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
     border-bottom: 1px solid #C4C4C4;
     font: 700 12px/25px 'verdanabold', arial, helvetica, sans-serif;
     color: #353535;
@@ -226,9 +226,12 @@ body {
 .delivery__text {
     display: block;
     background: no-repeat 15px url(img/car.svg);
-    margin-right: 54vw;
     padding-left: 46px;
     letter-spacing: 1px;
+}
+
+.delivery__price {
+    margin-right: 65px;
 }
 
 .payment {
@@ -468,11 +471,11 @@ body {
 }
 
 .contacts {
-    margin-right: 15vw;
+    margin-right: 90px;
 }
 
 .nets {
-    width: 43vw;
+    width: 258px;
 }
 
 .nets__title {
@@ -529,7 +532,7 @@ body {
 }
 
 .footer-text__container {
-    width: 81vw;
+    width: 490px;
 }
 
 .footer-text__letter {
@@ -573,16 +576,42 @@ body {
     letter-spacing: 0.2px;
 }
 
-@media (min-width: 601px) {
-    .banner-content {
-        height: auto;
+@media (min-width: 957px) {
+    .wrapper-text,
+    .container-text__first,
+    .container-text__second,
+    .footer {
+        display: none;
     }
-    .logo {
-        margin-right: 17vw;
+    .container-text {
+        background-color: #2F2F2F;
+    }
+    .banner-content__title {
+        letter-spacing: normal;
+    }
+    .banner-content__text {
+        flex-wrap: nowrap;
+    }
+}
+
+@media (min-width: 601px) {
+    .banner-content__title {
+        letter-spacing: normal;
+    }
+    .banner-content__text {
+        flex-wrap: nowrap;
     }
 }
 
 @media (max-width: 599px) {
+    .wrapper-text,
+    .banner-img,
+    .banner-triangle {
+        display: none;
+    }
+    .wrapper {
+        padding: 0;
+    }
     .banner-content {
         height: auto;
     }
