@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'gotham_problack';
+    src: url('fonts/gothampro-black-webfont.woff2') format('woff2'), url('fonts/gothampro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verdanabold';
+    src: url('fonts/ofont.ru_verdana_1-webfont.woff2') format('woff2'), url('fonts/ofont.ru_verdana_1-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'verdanaregular';
+    src: url('fonts/ofont.ru_verdana-webfont.woff2') format('woff2'), url('fonts/ofont.ru_verdana-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN2014Narrow';
+    src: url('fonts/DIN2014Narrow-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DIN2014-Bold';
+    src: url('fonts/DIN2014-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din-pro-medium';
+    src: url('fonts/AnyConv.com__din-pro-condensed-medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'din-pro-bold';
+    src: url('fonts/AnyConv.com__din-pro-condensed-bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
