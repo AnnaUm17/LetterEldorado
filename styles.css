@@ -170,6 +170,12 @@ body {
     margin-right: 59px;
 }
 
+.product-1__link_tv {
+    display: inline;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
 .product-1__quantity {
     font: 400 12px/25px 'verdanaregular', arial, helvetica, sans-serif;
     padding: 15px 0 0 0;
@@ -203,6 +209,13 @@ body {
     max-width: 180px;
     padding: 9px 0 0 0;
     margin-right: 59px;
+}
+
+.product-2__link_vc {
+    display: inline;
+    padding: 0 5px 0 0;
+    margin: 0;
+    letter-spacing: 0.5px;
 }
 
 .product-2__quantity {
@@ -629,7 +642,7 @@ body {
         padding: 0;
     }
     .logo {
-        margin-right: 17vw;
+        margin-right: 35vw;
     }
     .banner {
         padding: 0 21px 0 23px;
@@ -676,6 +689,7 @@ body {
         max-width: 90px;
         margin-right: 20%;
         margin-bottom: 20px;
+        text-align: center;
     }
     .product-1__price,
     .product-2__price {
@@ -717,6 +731,9 @@ body {
 }
 
 @media (max-width: 430px) {
+    .logo {
+        margin-right: 17vw;
+    }
     .table-head {
         justify-content: start;
     }
