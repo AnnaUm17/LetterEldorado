@@ -631,8 +631,23 @@ body {
     .logo {
         margin-right: 17vw;
     }
+    .banner {
+        padding: 0 21px 0 23px;
+    }
+    .banner-wrap {
+        margin-bottom: 20px;
+    }
     .banner-content {
         height: auto;
+    }
+    .banner-content__title {
+        line-height: 17px;
+        margin-bottom: 10px;
+        letter-spacing: normal;
+    }
+    .banner-content__text {
+        padding-bottom: 20px;
+        padding-right: 15px;
     }
     .table-head {
         justify-content: space-between;
